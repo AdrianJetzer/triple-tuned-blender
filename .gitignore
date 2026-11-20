@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Blender backups (Blender writes these automatically on save)
+*.blend1
+*.blend2
+
+# Ableton analysis files
+*.asd
+
+# Official Blender Lab MCP server: its own git repository, cloned from
+# https://projects.blender.org/lab/blender_mcp.git. Keep it on disk (Claude Code
+# starts the MCP server from it), but do not track it here.
+blender_mcp/
+
+# Raw samples stay local only: third-party sample licenses usually forbid
+# redistributing the raw files. The finished mixes and videos are included.
+samples/
